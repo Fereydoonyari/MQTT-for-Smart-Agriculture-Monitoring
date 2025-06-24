@@ -55,7 +55,7 @@ def simulate_data():
     else:
         return simulate_climate_sensor_data(device["device_id"], device["location"])
 
-print("Starting sensor simulation with multiple devices and locations...")
+print("Starting sensor simulation with multiple devices and locations")
 print(f"Available devices: {len(DEVICES)}")
 for device in DEVICES:
     print(f"  - {device['device_id']} at {device['location']} ({device['sensor_type']} sensor)")
